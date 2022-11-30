@@ -934,6 +934,17 @@ a {
   #latest-new .all-latest .latest-main .swiper .swiper-slide .slider-img {
     height: 170px;
   }
+  #brends .all-brends .brend-img {
+    display: none;
+  }
+  #brends .all-brends .brend-img:first-child {
+    display: inline-block;
+    width: 45%;
+  }
+  #brends .all-brends .brend-img:last-child {
+    display: inline-block;
+    width: 45%;
+  }
   #footer .all-footer .up-footer form input {
     width: 55%;
   }

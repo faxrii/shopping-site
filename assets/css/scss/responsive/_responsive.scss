@@ -131,7 +131,21 @@
     }
 
     #brends{
-        
+        .all-brends{
+            
+            .brend-img{
+                display: none;
+                &:first-child{
+                    display: inline-block;
+                    width: 45%;
+                }
+                &:last-child{
+                    display: inline-block;
+                    width: 45%;
+                }
+            }
+            
+        }
     }
 
     #footer{
