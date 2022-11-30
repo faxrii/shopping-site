@@ -71,6 +71,15 @@
     #best-selling{
         padding-top: 70px;
         .all-best-selling{
+            .best-selling-menu{
+                ul{
+                    li{
+                        font-size: 13px;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
+                }
+            }
             .best-selling-main{
                 margin-top: 0px;
                 .swiper{

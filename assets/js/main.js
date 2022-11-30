@@ -19,32 +19,32 @@ let card=document.querySelectorAll('.card')
 let cardClose=document.querySelectorAll('.close-card')
 let body=document.querySelectorAll('body')
 
-for(let i=0;i<cardClose.length;i++){
-   cardIco[i].onclick=function(){
-      card[i].classList.add('active')
-      body[i].classList.add('active')
+
+   cardIco[0].onclick=function(){
+      card[0].classList.add('active')
+      body[0].classList.add('active')
    }
-   cardClose[i].onclick=function(){
-      card[i].classList.remove('active')
-      body[i].classList.remove('active')
+   cardClose[0].onclick=function(){
+      card[0].classList.remove('active')
+      body[0].classList.remove('active')
    }
-}
+
 
 
 
 let cardIcoFirst=document.querySelectorAll('.shop-ico-1')
 
 
-for(let i=0;i<cardClose.length;i++){
-   cardIcoFirst[i].onclick=function(){
-      card[i].classList.add('active')
-      body[i].classList.add('active')
+
+   cardIcoFirst[0].onclick=function(){
+      card[0].classList.add('active')
+      body[0].classList.add('active')
    }
-   cardClose[i].onclick=function(){
-      card[i].classList.remove('active')
-      body[i].classList.remove('active')
+   cardClose[0].onclick=function(){
+      card[0].classList.remove('active')
+      body[0].classList.remove('active')
    }
-}
+
 
 
 let searchIco=document.querySelectorAll('.search-ico')
