@@ -5,10 +5,11 @@
     position: fixed;
     z-index: 11;
     width: 100vw;
+    
     .all-header{
         display: flex;
         align-items: center;
-        justify-content:space-between;
+        justify-content: space-between;
         .left-header{
             
             ul{
@@ -39,7 +40,8 @@
             
         }
         .right-header{
-          
+          display: flex;
+          align-items: center;
             a{
                 color: #222222;
                 display: inline-block;
@@ -54,6 +56,42 @@
                 margin-left: 20px;
                 font-size: 20px;
                 cursor: pointer;
+            }
+            form{
+                
+                input{
+                    outline: none;
+                    height: 25px;
+                    padding: 10px;
+                    display: none;
+                    
+                    
+                    border-radius: 8px;
+                &.active{
+                    display: inline-block;
+                    
+                }
+                }
+                
+            }
+            .ico-boxes{
+                position: relative;
+                display: none;
+                .open-ico{
+                    display: none;
+                   
+                    &.active{
+                        display: none;
+                    }
+                }
+                .close-ico{
+                    
+                    display: none;
+                    &.active{
+                        display: inline-block;
+                    }
+                }
+               
             }
 
             
@@ -104,24 +142,7 @@
           
         }
         
-        .ico-boxes{
-            position: relative;
-            .open-ico{
-                display: none;
-               
-                &.active{
-                    display: none;
-                }
-            }
-            .close-ico{
-                
-                display: none;
-                &.active{
-                    display: inline-block;
-                }
-            }
-           
-        }
+       
         
        
     }

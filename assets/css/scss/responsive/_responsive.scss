@@ -1,22 +1,30 @@
 @media(min-width:280px) and  (max-width:576px){
     #header{
         .all-header{
+            
             .left-header{
                 display: none;
             }
            .right-header{
-           
-            display: none;
-           
-            
-           }
-           
-            
-           .ico-boxes{
-            .open-ico{
-                display: inline-block;
+            .ico-boxes{
+                display: inline-block ;
+              .open-ico{
+                  display: inline-block;
+              }
+             }
+            a{
+                display: none;
             }
+            .shop-ico{
+                display: none;
+            }
+            
+           
+            
            }
+           
+            
+          
         }
     }
 

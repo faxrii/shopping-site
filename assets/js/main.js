@@ -45,3 +45,12 @@ for(let i=0;i<cardClose.length;i++){
       body[i].classList.remove('active')
    }
 }
+
+
+let searchIco=document.querySelectorAll('.search-ico')
+let searchInput=document.querySelectorAll('.search-input')
+for(let i=0;i<searchIco.length;i++){
+   searchIco[i].onclick=function(){
+      searchInput[i].classList.toggle('active')
+   }
+}
