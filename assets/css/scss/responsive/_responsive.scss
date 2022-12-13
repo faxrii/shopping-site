@@ -87,6 +87,11 @@
                     .swiper-slide{
                         .slider-up{
                             height: 250px;
+                            .slider-text-bar{
+                                a{
+                                    font-size: 12px;
+                                }
+                            }
                         }
                     }
                 }
@@ -157,6 +162,133 @@
         }
     }
 
+
+
+    #first-shop{
+        .all-first-shop{
+            height: 200px;
+            .first-shop-main{
+                .all-text{
+                    padding-top: 30px;
+                    h2{
+                        font-size: 45px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    #shop-main{
+        .all-shop-main{
+            .left-shop-main{
+                display: none;
+            }
+            .right-shop-main{
+                width: 100%;
+                .shop-list{
+                    justify-content: space-between;
+                    .shop-box{
+                        width: 45%;
+                        margin-left: 0%;
+                        .shop-up{
+                            height: 200px;
+                            .shop-text-bar{
+                                a{
+                                    font-size: 12px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+                .more-btn{
+                    a{
+                         margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+    #page-link {
+        padding-top: 60px;
+        .all-page-link {
+            h2 {
+               font-size: 20px;
+            }
+            p{
+                margin-top: 20px;
+            }
+    }
+    }
+
+    #map{
+        iframe{
+            height: 400px;
+        }
+    }
+
+    #main-contact{
+        .my-container{
+            width: 90%;
+            .all-main-contact{
+                .up-contact{
+                    .street-box{
+                        display: inline-block;
+                    }
+                }
+                .down-contact{
+                    .down-main{
+                        input{
+                            width: 98%;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #page-head{
+        padding-top: 70px;
+        .all-page-head{
+           .main-head{
+            h2{
+                font-size: 25px;
+            }
+            p{
+                margin-top: 10px;
+            }
+           }
+        }
+    }
+    #login-main{
+        .my-container-1{
+            width: 90%;
+            .all-login-main{
+                .left-login-main{
+                    width: 100%;
+                    .left-main{
+                        .sign{
+                            height: 50px;
+                        }
+                    }
+                }
+                .right-login-main{
+                    width: 100%;
+                    margin-top: 50px;
+                    .right-main{
+                        .create{
+                            width: 55%;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     #footer{
         .all-footer{
             .up-footer{
@@ -181,6 +313,7 @@
             }
         }
     }
+
 
     
 }

@@ -1,0 +1,308 @@
+#first-shop{
+    width: 100%;
+    padding-top: 70px;
+    
+    padding-bottom: 50px;
+    .all-first-shop{
+        height: 400px;
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #e4e4e4;
+        
+        .first-shop-main{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            .all-text{
+                margin-left: 40px;
+                padding-top: 70px;
+                h2{
+                    font-size: 90px;
+                    text-transform: uppercase;
+                }
+                p{
+                    font-size: 14px;
+                    color: #767676;
+                }
+            }
+            
+           
+        }
+    }
+}
+
+
+
+#shop-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .all-shop-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .left-shop-main{
+            width: 25%;
+            .left-box{
+                margin-top: 30px;
+                h3{
+                    font-size: 18px;
+                    color: #222222;
+                    text-transform: uppercase;
+                }
+                &:first-child{
+                    margin-top: 0%;
+                }
+            }
+            .list-box{
+                ul{
+                    list-style: none;
+                    margin-top: 20px;
+                    li{
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        a{
+                            font-size: 14px;
+                            color: #222222;
+                        }
+                        span{
+                            color: #767676;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .choose-color-box{
+                .choose-box-main{
+                    display: flex;
+                    margin-top: 15px;
+                    align-items: center;
+                    a{
+                        display: inline-block;
+                        margin-left: 10px;
+                        .color-box{
+                            background-color: green;
+                            border-radius: 50%;
+                            width: 15px;
+                            height: 15px;
+                            
+                           
+                        }
+                        &:first-child{
+                            margin-left: 0%;
+                        }
+                    }
+                }
+            }
+            .choose-size-box{
+                .choose-size-box-main{
+                    width: 80%;
+                    margin-top:15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .size-box{
+                        width: 50px;
+                        margin-top: 5px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        border: 1px solid #e4e4e4;
+                        p{
+                            font-size: 14px;
+                            color: #222222;
+                            text-transform: uppercase;
+                        }
+                        &.active{
+                            background-color: black;
+                            p{
+                                color: #fff;
+                            }
+                        }
+                        &:hover{
+                            border: 1px solid black;
+                        }
+                        
+
+                    }
+                }
+            }
+            .brand-box{
+                .brand-box-main{
+                    margin-top: 15px;
+                    .check-box{
+                        margin-top: 10px;
+                        cursor: pointer;
+                        color: #222222;
+                        transition: .5s ease;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        &:hover{
+                            color: orangered;
+                        }
+                        label,input{
+                            cursor: pointer;
+                        }
+                        span{
+                            color: #767676;
+                            font-size: 14px;
+                        }
+                        
+
+                    }
+                }
+            }
+            .wish-box{
+                p{
+                    color: #767676;
+                    font-size: 14px;
+                    margin-top: 15px;
+                }
+            }
+        }
+        
+        .right-shop-main{
+            width: 70%;
+            
+            .items-count{
+                p{
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: #222222;
+                }
+            }
+            .shop-list{
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                flex-wrap: wrap;
+                
+                   
+                    .shop-box{
+                   
+                        width: 30%;
+                        cursor: pointer;
+                        margin-left: 20px;
+                        margin-top: 20px;
+                        .shop-up{
+                            position: relative;
+                            overflow: hidden;
+                            width: 100%;
+                            height: 400px;
+                            .shop-img{
+                                width: 100%;
+                                height: 100%;
+                                overflow: hidden;
+                                img{
+                                    width: 100%;
+                                    height: 100%;   
+                                    object-fit: cover;
+                                    transition: .5s ease;
+                                }
+                            }
+                            .shop-text-bar{
+                                position: absolute;
+                                bottom: 0;
+                                left: 0%;
+                                width: 100%;
+                                z-index: 11;
+                                background-color: #222222;
+                                opacity: 0;
+                                visibility: hidden;
+                                transform: translateY(10px);
+                                transition: .5s ease;
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                height: 50px;
+                                a{
+                                    color: #fff;
+                                    font-size: 16px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-transform: uppercase;
+                                    background-color: #000;
+                                    transition: .5 ease;
+                                    height: 50px;
+                                    width: 50%;
+                                    &:hover{
+                                        background-color: #222222;
+                                    }
+                                }
+                            }
+                        }
+                        .shop-main-text{
+                            width: 100%;
+                            a{
+                                display: block;
+                                color: #222222;
+                                font-size: 16px;
+                                margin-top: 5px;
+                                transition: .5s ease;
+                                &:hover{
+                                    color: orangered;
+                                }
+                                &:first-child{
+                                    color:#B9A16B;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #000;
+        
+                                    }
+                                }
+                            }
+                            p{
+                                color: #696969;
+                                font-size: 16px;
+                                margin-top: 5px;
+                            }
+        
+                        }
+                        &:hover{
+                            .shop-up{
+                                .shop-img{
+                                    img{
+                                        transform: scale(1.1);
+                                    }
+                                }
+                                .shop-text-bar{
+                                    opacity: 1;
+                                    visibility: visible;
+                                    transform: translateY(0);
+                                }
+                            }
+                        }
+                    }
+                
+            }
+            .more-btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 50px;
+                    background-color: #000;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

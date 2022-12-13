@@ -14,36 +14,36 @@ for(let i=0;i<openIco.length;i++){
    }
 }
 
-let cardIco=document.querySelectorAll('.shop-ico')
-let card=document.querySelectorAll('.card')
-let cardClose=document.querySelectorAll('.close-card')
-let body=document.querySelectorAll('body')
+// let cardIco=document.querySelectorAll('.shop-ico')
+// let card=document.querySelectorAll('.card')
+// let cardClose=document.querySelectorAll('.close-card')
+// let body=document.querySelectorAll('body')
 
 
-   cardIco[0].onclick=function(){
-      card[0].classList.add('active')
-      body[0].classList.add('active')
-   }
-   cardClose[0].onclick=function(){
-      card[0].classList.remove('active')
-      body[0].classList.remove('active')
-   }
-
-
-
-
-let cardIcoFirst=document.querySelectorAll('.shop-ico-1')
+//    // cardIco[0].onclick=function(){
+//    //    card[0].classList.add('active')
+//    //    body[0].classList.add('active')
+//    // }
+//    // cardClose[0].onclick=function(){
+//    //    card[0].classList.remove('active')
+//    //    body[0].classList.remove('active')
+//    // }
 
 
 
-   cardIcoFirst[0].onclick=function(){
-      card[0].classList.add('active')
-      body[0].classList.add('active')
-   }
-   cardClose[0].onclick=function(){
-      card[0].classList.remove('active')
-      body[0].classList.remove('active')
-   }
+
+// let cardIcoFirst=document.querySelectorAll('.shop-ico-1')
+
+
+
+//    cardIcoFirst[0].onclick=function(){
+//       card[0].classList.add('active')
+//       body[0].classList.add('active')
+//    }
+//    cardClose[0].onclick=function(){
+//       card[0].classList.remove('active')
+//       body[0].classList.remove('active')
+//    }
 
 
 
@@ -52,5 +52,13 @@ let searchInput=document.querySelectorAll('.search-input')
 for(let i=0;i<searchIco.length;i++){
    searchIco[i].onclick=function(){
       searchInput[i].classList.toggle('active')
+   }
+}
+
+let sizeBox=document.querySelectorAll('.size-box')
+
+for(let i=0;i<sizeBox.length;i++){
+   sizeBox[i].onclick=function(){
+      sizeBox[i].classList.toggle('active')
    }
 }

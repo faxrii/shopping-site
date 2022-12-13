@@ -1,0 +1,93 @@
+.page-link{
+padding-top: 100px;
+padding-bottom: 40px;
+}
+#map{
+    iframe{
+        width: 100%;
+    }
+}
+
+#main-contact{
+    padding-bottom: 50px;
+    .my-container{
+        width: 50%;
+        margin: auto;
+        .all-main-contact{
+            .up-contact{
+                .street-box{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 50px;
+                    .left-box{
+                        h3{
+                            font-size: 26px;
+                        }
+                    }
+                    .right-box{
+                        ul{
+                            list-style: none;
+                            li{
+                                margin-top: 10px;
+                                a{
+                                    color: #222222;
+                                    
+                                }
+                                &:last-child{
+                                    a{
+                                        font-weight: 700;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .down-contact{
+                margin-top: 70px;
+                .down-head{
+                    h3{
+                        font-size: 26px;
+                    }
+                }
+                .down-main{
+                    input{
+                        width: 100%;
+                        padding: 10px;
+                        height: 50px;
+                        border: 1px solid #767676;
+                        opacity: 0.5;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                    }
+                    textarea{
+                        width: 100%;
+                        padding: 10px;
+                        height: 200px;
+                        border: 1px solid #767676;
+                        opacity: 0.5;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                    }
+                    a{
+                       
+                            display:flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 200px;
+                            height: 50px;
+                            background-color: #000;
+                            text-transform: uppercase;
+                            color: #fff;
+                            font-size: 14px;
+                            font-weight: 500;
+                            margin-top: 30px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
