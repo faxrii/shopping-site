@@ -1,0 +1,60 @@
+#login-main{
+    .my-container-1{
+        .all-login-main{
+            .left-login-main{
+                .left-main{
+                  .check-input{
+                    display: block;
+                    margin-top: 20px;
+                    .check{
+                        width:fit-content;
+                        margin: 0%;
+                        height: fit-content;
+                        opacity: 1;
+                     }  
+                     .check-label{
+                       margin: 0%;
+                     }
+                  }
+                }
+            }
+            .right-login-main{
+                width: 45%;
+               
+                .right-main{
+                    
+                    input{
+                        width: 100%;
+                        padding: 10px;
+                        border: 1px solid #767676;
+                        height: 50px;
+                        margin-top: 15px;
+                        opacity: 0.5;
+                    }
+
+                    label{
+                        display: inline-block;
+                        margin-top: 20px;
+                        font-size: 14px;
+                        color: #767676;
+                    }
+                    .show-pass{
+                        display: block;
+                        margin-top: 20px;
+                        input{
+                            width:fit-content;
+                            margin: 0%;
+                            height: fit-content;
+                            opacity: 1;
+                         }  
+                         label{
+                           margin: 0%;
+                         }
+                      }
+
+                    
+                }
+            }
+        }
+    }
+}

@@ -1197,6 +1197,58 @@ a {
   margin-top: 50px;
 }
 
+#login-main .my-container-1 .all-login-main .left-login-main .left-main .check-input {
+  display: block;
+  margin-top: 20px;
+}
+#login-main .my-container-1 .all-login-main .left-login-main .left-main .check-input .check {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 1;
+}
+#login-main .my-container-1 .all-login-main .left-login-main .left-main .check-input .check-label {
+  margin: 0%;
+}
+#login-main .my-container-1 .all-login-main .right-login-main {
+  width: 45%;
+}
+#login-main .my-container-1 .all-login-main .right-login-main .right-main input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #767676;
+  height: 50px;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+#login-main .my-container-1 .all-login-main .right-login-main .right-main label {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #767676;
+}
+#login-main .my-container-1 .all-login-main .right-login-main .right-main .show-pass {
+  display: block;
+  margin-top: 20px;
+}
+#login-main .my-container-1 .all-login-main .right-login-main .right-main .show-pass input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 1;
+}
+#login-main .my-container-1 .all-login-main .right-login-main .right-main .show-pass label {
+  margin: 0%;
+}
+
 #footer {
   background-color: #222222;
   padding-top: 50px;
@@ -1488,7 +1540,7 @@ a {
     padding-top: 70px;
   }
   #page-head .all-page-head .main-head h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   #page-head .all-page-head .main-head p {
     margin-top: 10px;

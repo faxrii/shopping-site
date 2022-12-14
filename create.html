@@ -107,8 +107,8 @@
         <div class="container">
             <div class="all-page-head">
                 <div class="main-head">
-                    <h2>customer login</h2>
-                    <p><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i> Customer Login</p>
+                    <h2>create new customer account</h2>
+                    <p><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i> Create New Customer Account</p>
                 </div>
             </div>
         </div>
@@ -120,10 +120,37 @@
             <div class="all-login-main">
                 <div class="left-login-main">
                     <div class="side-head">
-                        <h4>registered customers</h4>
-                        <p>If you have an account, sign in with your email address.</p>
+                        <h4>personal information</h4>
+                       
                     </div>
                     <div class="left-main">
+                        <form>
+                            <label for="name">First Name</label>
+                            <input type="text" id="name" required>
+
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" required>
+
+                            <div class="check-input">
+                                <input type="checkbox" id="signup" class="check"> <label for="signup" class="check-label">Sign Up for Newsletter</label>
+                            </div>
+
+                            <div class="check-input">
+                            <input type="checkbox" id="allow" class="check"> <label for="allow" class="check-label">Allow remote shopping assistance </label>
+                        </div>
+                        </form>
+
+                        
+                    </div>
+                </div>
+
+
+                <div class="right-login-main">
+                    <div class="side-head">
+                        <h4>sign-in information</h4>
+                        
+                    </div>
+                    <div class="right-main">
                         <form>
                             <label for="mail">Email</label>
                             <input type="email" id="mail" required>
@@ -131,27 +158,27 @@
                             <label for="password">Password</label>
                             <input type="password" id="password" required>
 
-                            <a href="" class="sign">sign in</a>
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" required>
+                            
+                            <div class="show-pass">
+                                <input type="checkbox" id="show-pass" onclick="showPassword()"> <label for="show-pass">Show Password</label>
+                            </div>
+
+
+                            <a href="create.html" class="create"> create a account</a>
+                            
                         </form>
 
-                        <a href="" class="forgot">Forgot Your Password?</a>
-                    </div>
-                </div>
-
-
-                <div class="right-login-main">
-                    <div class="side-head">
-                        <h4>create a account</h4>
-                        <p>Sign up for early Sale access plus tailored new arrivals, trends and promotions. To opt out, click unsubscribe in our emails.</p>
-                    </div>
-                    <div class="right-main">
-                        <a href="create.html" class="create"> create a account</a>
+                       
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    
 
     
 

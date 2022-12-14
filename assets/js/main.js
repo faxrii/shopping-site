@@ -62,3 +62,18 @@ for(let i=0;i<sizeBox.length;i++){
       sizeBox[i].classList.toggle('active')
    }
 }
+
+
+function showPassword() {
+   var x = document.getElementById("password");
+   var y=document.getElementById("confirm-password");
+   if (x.type === "password") {
+     x.type = "text";
+     y.type ='text';
+   } else {
+     x.type = "password";
+     y.type = "password";
+   }
+ }
+
+ 
