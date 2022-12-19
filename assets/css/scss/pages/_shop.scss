@@ -203,12 +203,17 @@
                                 width: 100%;
                                 height: 100%;
                                 overflow: hidden;
+                               a{
+                                width: 100%;
+                                height: 100%;
+                                overflow: hidden;
                                 img{
                                     width: 100%;
                                     height: 100%;   
                                     object-fit: cover;
                                     transition: .5s ease;
                                 }
+                               }
                             }
                             .shop-text-bar{
                                 position: absolute;

@@ -76,4 +76,16 @@ function showPassword() {
    }
  }
 
- 
+let minus=document.querySelector('.minus')
+let plus=document.querySelector('.plus')
+let count=document.querySelector('.count')
+console.log(minus,plus,count)
+minus.onclick=function(){
+   
+   if(count.innerText>0){
+      count.innerText=Number(count.innerText) -1;
+   }
+}
+plus.onclick=function(){
+   count.innerText=Number(count.innerText) +1;
+}

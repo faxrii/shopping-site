@@ -1,4 +1,4 @@
-@media(min-width:280px) and  (max-width:576px){
+@media(min-width:280px) and  (max-width:768px){
     #header{
         .all-header{
             
@@ -439,4 +439,257 @@
 
 
     
+}
+
+@media(min-width:768px) and (max-width:1200px){
+    #first-slider{
+        height: 70vh;
+        
+    }
+
+    #shop-now{
+        padding-top: 700px;
+        
+    }
+    #login-main{
+        .my-container-1{
+            width: 90%;
+            .all-login-main{
+                .left-login-main{
+                    width: 100%;
+                    .left-main{
+                        .sign{
+                            height: 50px;
+                        }
+                    }
+                }
+                .right-login-main{
+                    width: 100%;
+                    margin-top: 50px;
+                    .right-main{
+                        .create{
+                            width: 55%;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #blog{
+        .all-blog{
+            .left-blog{
+                width: 96%;
+                margin: auto;
+                padding-bottom: 50px;
+                .left-blog-main{
+                    .blog-box{
+                        flex-wrap: wrap;
+                        width: 100%;
+                        a{
+                            width: 100%;
+                            
+                        }
+                        .box-text{
+                            width: 100%;
+                            margin-top: 15px;
+                            a{
+                                .text-head{
+                                    h2{
+                                        font-size: 21px;                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right-blog{
+                width: 100%;
+                margin-left: 0%;
+                .right-box{
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+
+
+
+    #blog-detail{
+        .all-blog-detail{
+          .left-blog-detail{
+            width: 100%;
+           
+            .left-blog-main{
+                margin-top: 30px;
+                
+                .blog-text{
+                    width: 100%;
+                    margin-top: 30px;
+                    .text-list{
+                        flex-wrap: wrap;
+                        .list-box{
+                            ul,ol{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                
+                .down-text{
+                    width: 100%;
+                    flex-wrap: wrap;
+                    .tag-box{
+                        width: 100%;
+                    }
+                    .share-box{
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+                
+            }
+            .left-blog-comments{
+                width: 100%;
+                .comments-head{
+                    h3{
+                        font-size: 26px;
+                    }
+                }
+                .comments-main{
+                    .input-box{
+                        margin-top: 0px;
+                        flex-wrap: wrap;
+                        input{
+                            width: 100%;
+                            margin-top: 30px;
+                        }
+                    }
+                    a{
+                        width: 100px;
+                        height: 50px;
+                        
+                    }
+                }
+            }
+          }
+          .right-blog-detail{
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 50px;
+            .right-box{
+                margin-top: 50px;
+            }
+          }
+        }
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    #blog{
+        .all-blog{
+            .left-blog{
+                width: 96%;
+                margin: auto;
+                padding-bottom: 50px;
+                .left-blog-main{
+                    .blog-box{
+                        flex-wrap: wrap;
+                        width: 100%;
+                        a{
+                            width: 100%;
+                            .box-img {
+                                height: 450px;
+                            }
+                            
+                        }
+                        .box-text{
+                            width: 100%;
+                            margin-top: 15px;
+                            
+                        }
+                    }
+                }
+            }
+            .right-blog{
+                width: 100%;
+                margin-left: 0%;
+                .right-box{
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+    
+    #blog-detail{
+        .all-blog-detail{
+          .left-blog-detail{
+            width: 100%;
+           
+            .left-blog-main{
+                margin-top: 30px;
+                
+                .blog-text{
+                    width: 100%;
+                    margin-top: 30px;
+                    .text-list{
+                        flex-wrap: wrap;
+                        .list-box{
+                            ul,ol{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                
+                .down-text{
+                    width: 100%;
+                    flex-wrap: wrap;
+                    .tag-box{
+                        width: 100%;
+                    }
+                    .share-box{
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+                
+            }
+            .left-blog-comments{
+                width: 100%;
+                .comments-head{
+                    h3{
+                        font-size: 26px;
+                    }
+                }
+                .comments-main{
+                    .input-box{
+                        margin-top: 0px;
+                        flex-wrap: wrap;
+                        input{
+                            width: 100%;
+                            margin-top: 30px;
+                        }
+                    }
+                    a{
+                        width: 100px;
+                        height: 50px;
+                        
+                    }
+                }
+            }
+          }
+          .right-blog-detail{
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 50px;
+            .right-box{
+                margin-top: 50px;
+            }
+          }
+        }
+    }
 }
