@@ -1769,7 +1769,7 @@ a {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  height: 800px;
+  height: 600px;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
@@ -1784,7 +1784,7 @@ a {
 }
 #shop-detail .all-shop-detail .left-shop-detail .swiper {
   width: 100%;
-  height: 300px;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1869,8 +1869,201 @@ a {
   text-transform: uppercase;
   font-weight: 600;
 }
+#shop-detail .all-shop-detail .right-shop-detail .right-main {
+  margin-top: 50px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box p {
+  font-size: 13px;
+  color: #222222;
+  text-transform: uppercase;
+  margin-left: 5px;
+  font-weight: 500;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .active {
+  position: relative;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .active::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 70%;
+  background-color: #222222;
+  height: 1px;
+  transition: 0.5s ease;
+  margin-top: 5px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .active:hover::after {
+  width: 100%;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content {
+  margin-top: 25px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box {
+  display: none;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .text-box {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .text-box p {
+  font-size: 14px;
+  color: #696969;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .text-box span {
+  color: #222222;
+  font-size: 13px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .delivery {
+  display: flex;
+  align-items: center;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .delivery p {
+  margin-left: 15px;
+  color: #222222;
+  font-size: 14px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .delivery p span {
+  color: #696969;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .truck {
+  margin-top: 30px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box .shipping {
+  margin-top: 20px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .wish-list-box.active {
+  display: inline-block;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box {
+  display: none;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #222222;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.5s ease;
+  background-color: #efebeb;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box a:hover {
+  color: orangered;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box.active {
+  display: inline-block;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box h4 {
+  margin-top: 20px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box .ico-box {
+  display: flex;
+  margin-top: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #efebeb;
+  padding: 10px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box .ico-box i {
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 0.5s ease;
+  color: #696969;
+  cursor: pointer;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .share-box .ico-box i:hover {
+  color: orangered;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box {
+  display: none;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box form {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box form input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  outline: none;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box form textarea {
+  padding: 10px;
+  outline: none;
+  opacity: 0.7;
+  margin-top: 25px;
+  width: 100%;
+  height: 150px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box form button {
+  padding: 10px;
+  width: 150px;
+  margin-top: 25px;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box.active {
+  display: inline-block;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box {
+  display: none;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box .choose-size-box-main {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box .choose-size-box-main .siz-box {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s ease;
+  border: 1px solid #696969;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box .choose-size-box-main .siz-box p {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #222222;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box .choose-size-box-main .siz-box:first-child {
+  margin-left: 0%;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box .choose-size-box-main .siz-box:hover {
+  background-color: #000;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box .choose-size-box-main .siz-box:hover p {
+  color: #fff;
+}
+#shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .size-box.active {
+  display: inline-block;
+}
 
 #comments {
+  margin-top: 50px;
   padding-bottom: 50px;
 }
 #comments .all-comments {
@@ -1942,6 +2135,7 @@ a {
   border: 1px solid #696969;
   opacity: 0.5;
   padding: 10px;
+  margin-top: 15px;
 }
 #comments .all-comments .comments-content form .textarea-box {
   width: 100%;
@@ -1950,6 +2144,7 @@ a {
 #comments .all-comments .comments-content form .textarea-box textarea {
   width: 100%;
   height: 100px;
+  margin-top: 15px;
 }
 #comments .all-comments .comments-content form .submit-box {
   margin-top: 30px;

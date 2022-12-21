@@ -79,13 +79,39 @@ function showPassword() {
 let minus=document.querySelector('.minus')
 let plus=document.querySelector('.plus')
 let count=document.querySelector('.count')
-console.log(minus,plus,count)
+
 minus.onclick=function(){
    
-   if(count.innerText>0){
+   if(count.innerText>1){
       count.innerText=Number(count.innerText) -1;
    }
 }
 plus.onclick=function(){
    count.innerText=Number(count.innerText) +1;
+}
+
+const removeActive = () => {
+   let rightBoxes=document.getElementsByClassName('right-cat')
+   for(let i=0;i<headBoxes.length;i++){
+      rightBoxes[i].classList.remove('active')
+   }
+}
+
+const removeActiveHead = () => {
+   let headBoxes=document.querySelectorAll('.head-box')
+   for(let i=0;i<headBoxes.length;i++){
+      headBoxes[i].classList.remove('active')
+   }
+}
+
+let headBoxes=document.querySelectorAll('.head-box')
+let rightBoxes=document.getElementsByClassName('right-cat')
+for(let i=0;i<headBoxes.length;i++){
+   headBoxes[i].onclick=function(){
+      removeActiveHead()
+      removeActive()
+      rightBoxes[i].classList.add('active')
+      headBoxes[i].classList.add('active')
+   }
+
 }
