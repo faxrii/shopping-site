@@ -2574,6 +2574,51 @@ a {
   #blog-detail .all-blog-detail .right-blog-detail .right-box {
     margin-top: 50px;
   }
+  #shop-detail .all-shop-detail {
+    flex-wrap: wrap;
+  }
+  #shop-detail .all-shop-detail .left-shop-detail {
+    width: 100%;
+  }
+  #shop-detail .all-shop-detail .left-shop-detail .swiper {
+    height: 300px;
+  }
+  #shop-detail .all-shop-detail .left-shop-detail .swiper .swiper-slide {
+    height: 300px;
+  }
+  #shop-detail .all-shop-detail .left-shop-detail .mySwiper {
+    display: none;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-count {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-count .add-card {
+    margin-left: 0%;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-count .add-card a {
+    width: 200px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head {
+    flex-wrap: wrap;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box {
+    margin-top: 20px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box p {
+    font-size: 10px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-content .question-box {
+    margin-top: 20px;
+  }
+  #comments .all-comments .comments-content form .input-box {
+    width: 100%;
+    margin-top: 15px;
+  }
   #footer .all-footer .up-footer form input {
     width: 55%;
   }
@@ -2612,6 +2657,28 @@ a {
   #login-main .my-container-1 .all-login-main .right-login-main .right-main .create {
     width: 55%;
     height: 50px;
+  }
+  #shop-detail .all-shop-detail .left-shop-detail .swiper {
+    height: 400px;
+  }
+  #shop-detail .all-shop-detail .left-shop-detail .mySwiper {
+    height: 100px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-count .add-card a {
+    width: 150px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head {
+    flex-wrap: wrap;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box p {
+    font-size: 12px;
+  }
+  #shop-detail .all-shop-detail .right-shop-detail .right-main .right-main-head .head-box:first-child {
+    margin-left: 0%;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {

@@ -412,6 +412,69 @@
           }
         }
     }
+
+    #shop-detail{
+        .all-shop-detail{
+            flex-wrap: wrap;
+            .left-shop-detail{
+                width: 100%;
+                .swiper{
+                    height: 300px;
+                    .swiper-slide{
+                        height: 300px;
+                    }
+                }
+                .mySwiper  {
+                    display: none;
+                  }
+            }
+            .right-shop-detail{
+                width: 100%;
+                margin-top: 20px;
+                .right-count{
+                   flex-wrap: wrap;
+                   justify-content: space-between;
+                   .add-card{
+                    margin-left: 0%;
+                    a{ 
+                    width: 200px;
+                    }
+                   }
+                }
+                .right-main{
+                    .right-main-head{
+                        flex-wrap: wrap;
+                        .head-box{
+                            margin-top: 20px;
+                            p{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                    .right-main-content{
+                        .question-box{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #comments{
+        .all-comments{
+            .comments-content{
+                form{
+                    .input-box{
+                        width: 100%;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+
     #footer{
         .all-footer{
             .up-footer{
@@ -470,6 +533,45 @@
                         .create{
                             width: 55%;
                             height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #shop-detail{
+        .all-shop-detail{
+            .left-shop-detail{
+                
+                .swiper{
+                    height: 400px;
+                }
+                .mySwiper{
+                    height: 100px;
+                } 
+                
+            }
+            .right-shop-detail{
+                .right-count{
+                    .add-card{
+                        a{
+                            width: 150px;
+                        }
+                    }
+                }
+                .right-main{
+                    .right-main-head{
+                        flex-wrap: wrap;
+                        .head-box{
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            p{
+                                font-size: 12px;
+
+                            }
+                            &:first-child{
+                                margin-left: 0%;
+                            }
                         }
                     }
                 }
