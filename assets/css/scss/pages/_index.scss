@@ -313,8 +313,7 @@
         }
         .best-selling-main{
             margin-top: 50px;
-          display: flex;
-          align-items: center;
+            display: none;
           .swiper {
             width: 96%;
             margin: auto;
@@ -425,6 +424,10 @@
                     }
                 }
               }
+          }
+          &.active{
+            display: flex;
+            align-items: center;
           }
     
          

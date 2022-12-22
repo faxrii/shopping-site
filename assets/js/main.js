@@ -76,19 +76,19 @@ function showPassword() {
    }
  }
 
-let minus=document.querySelector('.minus')
-let plus=document.querySelector('.plus')
-let count=document.querySelector('.count')
+// let minus=document.querySelector('.minus')
+// let plus=document.querySelector('.plus')
+// let count=document.querySelector('.count')
 
-minus.onclick=function(){
+// minus.onClick=function(){
    
-   if(count.innerText>1){
-      count.innerText=Number(count.innerText) -1;
-   }
-}
-plus.onclick=function(){
-   count.innerText=Number(count.innerText) +1;
-}
+//    if(count.innerText>1){
+//       count.innerText=Number(count.innerText) -1;
+//    }
+// }
+// plus.onClick=function(){
+//    count.innerText=Number(count.innerText) +1;
+// }
 
 const removeActive = () => {
    let rightBoxes=document.getElementsByClassName('right-cat')
@@ -115,3 +115,32 @@ for(let i=0;i<headBoxes.length;i++){
    }
 
 }
+
+
+let sellHead=document.querySelectorAll('.sell-li')
+let sellBoxes=document.querySelectorAll('.best-selling-main')
+
+const removeSellActive = () => {
+   
+   for(let i=0;i<sellHead.length;i++){
+      sellBoxes[i].classList.remove('active')
+   }
+}
+
+const removeSellHeadActive = () => {
+   
+   for(let i=0;i<sellHead.length;i++){
+      sellHead[i].classList.remove('active')
+   }
+}
+
+for(let i=0;i<sellHead.length;i++){
+   sellHead[i].onclick=function(){
+      removeSellHeadActive()
+      removeSellActive()
+      sellBoxes[i].classList.add('active')
+      sellHead[i].classList.add('active')
+   }
+
+}
+console.log(sellHead,sellBoxes)

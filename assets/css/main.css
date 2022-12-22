@@ -76,7 +76,7 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   position: fixed;
-  z-index: 11;
+  z-index: 25;
   width: 100vw;
 }
 #header .all-header {
@@ -481,8 +481,7 @@ a {
 }
 #best-selling .all-best-selling .best-selling-main {
   margin-top: 50px;
-  display: flex;
-  align-items: center;
+  display: none;
 }
 #best-selling .all-best-selling .best-selling-main .swiper {
   width: 96%;
@@ -583,6 +582,10 @@ a {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+#best-selling .all-best-selling .best-selling-main.active {
+  display: flex;
+  align-items: center;
 }
 
 #by-category {
